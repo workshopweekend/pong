@@ -1,0 +1,3 @@
+1. Change the physics so that the direction of the ball is different each round.
+2. Change the bounce code so that the ball bounces differently if the paddle is moving.
+3. Use a different input to control the paddles. Perhaps an [Ultrasonic distance sensor](http://www.oddwires.com/hc-sr04-ultrasonic-sensor-distance-measuring-module-for-arduino/), using the [NewPing library](http://code.google.com/p/arduino-new-ping)? Or a [membrane potentiometer](https://www.adafruit.com/products/178) or a [flex sensor](https://www.adafruit.com/products/1070)?
