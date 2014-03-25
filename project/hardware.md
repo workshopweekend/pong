@@ -5,4 +5,4 @@ You'll need the following components:
 * 10 wires.
 * Solderless breadboard.
  
- Preparing the LED Matrix board may also require a soldering iron to bridge a jumper pad on the back of the board.
+Preparing the LED Matrix board may also require a soldering iron to bridge a jumper pad on the back of the board.
