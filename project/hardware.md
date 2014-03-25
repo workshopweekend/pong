@@ -5,4 +5,4 @@ You'll need the following components:
 * 10 wires.
 * Solderless breadboard.
  
-Preparing the LED Matrix board may also require a soldering iron to bridge a jumper pad on the back of the board.
+Preparing the LED Matrix board may also require a soldering iron to bridge jumper J5 on the back of the board. [See the Adafruit tutorial for details](http://learn.adafruit.com/16x24-led-matrix/wiring).
