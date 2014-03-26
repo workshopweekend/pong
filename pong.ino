@@ -3,7 +3,6 @@
 // Last update: March 2014
 // pong.ino
 
-
 #include "HT1632.h" // Get this library here: http://github.com/workshopweekend/HT1632
 #include "states.h"
 
@@ -30,7 +29,9 @@ void setup() {
   lastUpdate = millis();
 }
 
-// START state
+/*****************
+ * START state    *
+ *****************/
 unsigned long lastSecondsSinceStart = 1000;
 
 void loopSTART(unsigned long now, float deltat) {
@@ -59,8 +60,9 @@ void loopSTART(unsigned long now, float deltat) {
   }
 }
 
-
-// GAME state
+/*****************
+ * GAME state    *
+ *****************/
 int points1 = 0;
 int points2 = 0;
 
@@ -128,8 +130,9 @@ void loopGAME(unsigned long now, float deltat) {
   matrix.writeScreen();
 }
 
-
-// SCORE state
+/*****************
+ * SCORE state    *
+ *****************/
 boolean scoreVisible = false;
 
 void resetGame() {
@@ -163,8 +166,9 @@ void loopSCORE(unsigned long now, float deltat) {
   }
 }
 
-
-// WIN state
+/*****************
+ * WIN state    *
+ *****************/
 boolean winVisible = false;
 
 void loopWIN(unsigned long now, float deltat) {
@@ -184,7 +188,7 @@ void loopWIN(unsigned long now, float deltat) {
   }  
 }
 
-
+// Main loop here:
 void loop() {
   unsigned long now = millis();
   float deltat = (now - lastUpdate) / 1000.0;
